@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream It - Unlock Your Subconscious</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-purple: #6c5ce7;
+            --dark-bg: #0f0c29;
+            --glass: rgba(255, 255, 255, 0.1);
+            --text-light: #f5f5f5;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #a29bfe, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #d1d1d1;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-purple);
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(108, 92, 231, 0.6);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 4rem;
+        }
+
+        .feature-card {
+            background: var(--glass);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .feature-card:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .feature-card h3 {
+            color: #a29bfe;
+            margin-top: 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 5rem 0 3rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <strong>Dream It App</strong>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h1>Don’t Just Dream.<br>Understand.</h1>
+            <p>Your subconscious has a story to tell. Capture, share, and decode your dreams with the ultimate digital sanctuary.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.dreamitapp.dreamit" class="cta-button">Download on Google Play</a>
+        </section>
+
+        <section id="features">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Explore Your Inner World</h2>
+            <div class="features-grid">
+
+                <div class="feature-card">
+                    <h3>🌙 Dream Journal</h3>
+                    <p>Record your dreams the moment you wake. Our intuitive journal keeps your nocturnal adventures safe and organized.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>👥 Dream Circle</h3>
+                    <p>Share your experiences with a community of dreamers. Connect through shared themes and collective insights.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🧠 Dream Interpreter</h3>
+                    <p>Gain clarity on your recurring visions. Our interpreter helps you find the meaning behind the mystery.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>📖 Codex of Symbols</h3>
+                    <p>A library of universal archetypes at your fingertips. Decode the language of your mind with ease.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>✨ Personal Insights</h3>
+                    <p>Discover patterns in your sleep life. Track your moods and growth through detailed dream analysis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🕯️ Dream Altar</h3>
+                    <p>A digital space for reflection and intention. Honor your dreams before you close your eyes each night.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section style="text-align: center; margin-top: 5rem;">
+            <h2>Start Your Journey Tonight</h2>
+            <p>Download Dream It and bridge the gap between your worlds.</p>
+            <br>
+            <a href="https://play.google.com/store/apps/details?id=com.dreamitapp.dreamit" class="cta-button">Get the App Now</a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 MRG Entertainment. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
